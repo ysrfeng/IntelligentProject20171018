@@ -1,4 +1,4 @@
-package com.ysr.lucky.base;
+package com.ysr.lucky.base
 
 /**
  * @author ysr
@@ -6,5 +6,4 @@ package com.ysr.lucky.base;
  * 邮箱 yfeng1023@gmail.com
  */
 
-public class BaseModel {
-}
+class BaseModel

@@ -1,9 +1,15 @@
 package com.ysr.lucky;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.ysr.lucky.base.BaseActivity;
+
+/**
+ * @author ysr
+ * @data 2017/10/20 下午5:57.
+ * 邮箱 yfeng1023@gmail.com
+ */
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

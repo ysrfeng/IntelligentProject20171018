@@ -1,7 +1,25 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext.kotlin_version = '1.1.51'
+    ext {
+        // Android config
+        kotlin_version = '1.1.51'
+        androidBuildToolsVersion = '26.0.2'
+        androidMinSdkVersion = 19
+        androidTargetSdkVersion = 26
+        androidCompileSdkVersion = 26
+        androidApplicationId = 'com.ysr.lucky'
+        multidexVersion = '1.0.0'
+        retrofitVersion = '2.3.0'
+        retrofit2rxadapterVersion = '2.0.0'
+        okhttp3logVersion = '3.8.0'
+        gsonVersion = '2.4'
+        designVersion = '26.0.0-alpha1'
+        glideVersion = '4.0.0-RC1'
+        arouterVersion = '1.2.1.1'
+        aroutercompilerVersion = '1.1.2.1'
+        realmVersion = '3.1.0'
+    }
     repositories {
         jcenter()
     }
